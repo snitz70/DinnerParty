@@ -10,14 +10,15 @@ namespace DinnerParty
     {
         public int NumberOfPeople;
         public const int CostOfFoodPerPerson = 25;
-        public decimal CostOfDecorations;
-
+        public decimal CostOfDecorations = 0;
+        public decimal CostOfBeveragesPerPerson;
+        
         public void SetHealthyOption(bool healthyOption)
         {
 
         }
 
-        public void CalculateCostOfDecorations()
+        public void CalculateCostOfDecorations(bool fancyOption)
         {
 
         }

@@ -67,6 +67,7 @@
             0,
             0,
             0});
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // fancyBox
             // 
@@ -79,6 +80,7 @@
             this.fancyBox.TabIndex = 2;
             this.fancyBox.Text = "Fancy Decorations";
             this.fancyBox.UseVisualStyleBackColor = true;
+            this.fancyBox.CheckedChanged += new System.EventHandler(this.fancyBox_CheckedChanged);
             // 
             // healthyBox
             // 
@@ -89,6 +91,7 @@
             this.healthyBox.TabIndex = 3;
             this.healthyBox.Text = "Healthy Decorations";
             this.healthyBox.UseVisualStyleBackColor = true;
+            this.healthyBox.CheckedChanged += new System.EventHandler(this.healthyBox_CheckedChanged);
             // 
             // costLabel
             // 
