@@ -26,7 +26,7 @@ namespace DinnerParty
         private void DisplayDinnerPartyCost()
         {
             decimal Cost = dinnerParty.CalculateCost(healthyBox.Checked);
-            costLabel.Text = Cost.ToString("c");
+            costText.Text = Cost.ToString("c");
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)

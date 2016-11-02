@@ -33,7 +33,7 @@
             this.fancyBox = new System.Windows.Forms.CheckBox();
             this.healthyBox = new System.Windows.Forms.CheckBox();
             this.costLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.costText = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -103,19 +103,19 @@
             this.costLabel.TabIndex = 4;
             this.costLabel.Text = "Cost";
             // 
-            // textBox1
+            // costText
             // 
-            this.textBox1.Location = new System.Drawing.Point(54, 101);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(76, 20);
-            this.textBox1.TabIndex = 5;
+            this.costText.Location = new System.Drawing.Point(54, 101);
+            this.costText.Name = "costText";
+            this.costText.Size = new System.Drawing.Size(76, 20);
+            this.costText.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(160, 141);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.costText);
             this.Controls.Add(this.costLabel);
             this.Controls.Add(this.healthyBox);
             this.Controls.Add(this.fancyBox);
@@ -138,7 +138,7 @@
         private System.Windows.Forms.CheckBox fancyBox;
         private System.Windows.Forms.CheckBox healthyBox;
         private System.Windows.Forms.Label costLabel;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox costText;
     }
 }
 
